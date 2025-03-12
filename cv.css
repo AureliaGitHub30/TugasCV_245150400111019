@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: #231800;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    justify-content: center;
+}
+
+header{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 10px 0;
+}
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    max-width: 750px; /* Sesuaikan dengan lebar container putih */
+    margin: 0 auto 10px; /* Tengah & beri jarak bawah */
+    padding: 20px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.foto-profil {
+    display: block !important;
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important; 
+    margin-left: 200px;
+    object-fit: cover !important;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.name{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+    width: 800px;
+    margin-bottom: -5px;
+    color: #F47538;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.job{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+    width: 800px;
+    margin: 5px auto;
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.cv-container {
+    background: white;
+    width: 750px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: start;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #F47538;
+    font-size: 28px;
+    margin: auto;
+    font-weight: 1200;
+}
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #333;
+    margin: 95px auto;
+    text-align: left;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+    margin: 5px 0;
+}
+p .tahun{
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+}
+p .ttl{
+    font-weight: 800;
+    font-size: 25px;
+}
+.kontakdesc{
+    margin-top: -90px;
+}
+.contact {
+    color: #999;
+    margin-top: 10px;
+}
+
+.edu-title {
+    font-weight: 1000;
+    font-size: 22px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.smadesc{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.univdesc{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.logout {
+    margin-top: 20px;
+    background: #ccc;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

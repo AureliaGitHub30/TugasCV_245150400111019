@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #211808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-header {
+    background-color: #E8773B;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Styling input date agar mirip input text */
+input[type="date"] {
+    appearance: none; /* Hilangkan default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    color: #333;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 95%;
+    cursor: pointer;
+}
+
+/* Styling jika input date diklik */
+input[type="date"]:focus {
+    border-color: #E8773B;
+    outline: none;
+}
+
+/* Tambahan styling untuk memastikan konsistensi di semua browser */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(0.5); /* Sesuaikan warna icon kalender */
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E8773B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #d46833;
+}
